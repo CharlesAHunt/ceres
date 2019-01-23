@@ -1,0 +1,109 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/charleshunt/projects/ceres/src/main/scala/com/cornfluence/HTTPServer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.cornfluence.Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/charleshunt/projects/ceres/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 541b3486 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Any[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.AnyVal[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.ArrayEquals[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.AsInstanceOf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.DefaultArguments[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.EitherProjectionPartial[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Enumeration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Equals[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.ExplicitImplicitTypes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.FinalCaseClass[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.FinalVal[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.ImplicitConversion[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.ImplicitParameter[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.IsInstanceOf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.JavaConversions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.JavaSerializable[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.LeakingSealed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.MutableDataStructures[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.NonUnitStatements[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Nothing[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Null[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Option2Iterable[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.OptionPartial[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Overloading[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Product[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.PublicInference[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Recursion[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Return[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Serializable[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.StringPlusAny[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Throw[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.ToString[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.TraversableOps[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.TryPartial[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.Var[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:wartremover:only-warn-traverser:org.wartremover.warts.While[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utf-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-explaintypes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:existentials[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:experimental.macros[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:higherKinds[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xcheckinit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfuture[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:adapted-args[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:by-name-right-associative[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:constant[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:delayedinit-select[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:doc-detached[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:inaccessible[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:infer-any[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:missing-interpolator[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:nullary-override[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:nullary-unit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:option-implicit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:package-object-classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:poly-implicit-overload[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:private-shadow[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:stars-align[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:type-parameter-shadow[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:unsound-match[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Yno-adapted-args[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ypartial-unification[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-dead-code[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-extra-implicit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-inaccessible[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-infer-any[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-nullary-override[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-nullary-unit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-numeric-widen[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-unused:implicits[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-unused:imports[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-unused:locals[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-unused:params[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-unused:patvars[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-unused:privates[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-value-discard[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/home/charleshunt/.ivy2/cache/org.wartremover/wartremover_2.12/jars/wartremover_2.12-2.2.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/classes:/home/charleshunt/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/charleshunt/projects/ceres/target/scala-2.12/classes:/home/charleshunt/.ivy2/cache/org.http4s/http4s-dsl_2.12/jars/http4s-dsl_2.12-0.20.0-M5.jar:/home/charleshunt/.ivy2/cache/org.http4s/http4s-core_2.12/jars/http4s-core_2.12-0.20.0-M5.jar:/home/charleshunt/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.5.0.jar:/home/charleshunt/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.5.0.jar:/home/charleshunt/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.6.jar:/home/charleshunt/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.8.jar:/home/charleshunt/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.5.0.jar:/home/charleshunt/.ivy2/cache/org.typelevel/cats-effect_2.12/jars/cats-effect_2.12-1.1.0.jar:/home/charleshunt/.ivy2/cache/co.fs2/fs2-io_2.12/jars/fs2-io_2.12-1.0.2.jar:/home/charleshunt/.ivy2/cache/co.fs2/fs2-core_2.12/jars/fs2-core_2.12-1.0.2.jar:/home/charleshunt/.ivy2/cache/org.scodec/scodec-bits_2.12/jars/scodec-bits_2.12-1.1.7.jar:/home/charleshunt/.ivy2/cache/org.log4s/log4s_2.12/jars/log4s_2.12-1.6.1.jar:/home/charleshunt/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/home/charleshunt/.ivy2/cache/org.http4s/parboiled_2.12/jars/parboiled_2.12-1.0.0.jar:/home/charleshunt/.ivy2/cache/org.http4s/http4s-blaze-server_2.12/jars/http4s-blaze-server_2.12-0.20.0-M5.jar:/home/charleshunt/.ivy2/cache/org.http4s/http4s-blaze-core_2.12/jars/http4s-blaze-core_2.12-0.20.0-M5.jar:/home/charleshunt/.ivy2/cache/org.http4s/blaze-http_2.12/jars/blaze-http_2.12-0.14.0-M12.jar:/home/charleshunt/.ivy2/cache/org.http4s/blaze-core_2.12/jars/blaze-core_2.12-0.14.0-M12.jar:/home/charleshunt/.ivy2/cache/com.twitter/hpack/jars/hpack-1.0.2.jar:/home/charleshunt/.ivy2/cache/org.eclipse.jetty.alpn/alpn-api/jars/alpn-api-1.1.3.v20160715.jar:/home/charleshunt/.ivy2/cache/org.http4s/http4s-server_2.12/jars/http4s-server_2.12-0.20.0-M5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 7.049338384 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/charleshunt/projects/ceres/src/main/scala/com/cornfluence/HTTPServer.scala:6:26: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.http4s.syntax._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/charleshunt/projects/ceres/src/main/scala/com/cornfluence/HTTPServer.scala:23:8: [wartremover:Any] Inferred type containing Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m      .compile[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/charleshunt/projects/ceres/src/main/scala/com/cornfluence/HTTPServer.scala:13:7: [wartremover:PublicInference] Public member must have an explicit type ascription[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val httpService = HttpRoutes.of[IO] {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
